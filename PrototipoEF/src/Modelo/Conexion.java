@@ -10,6 +10,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.sql.*;
 
 /**
  *
@@ -21,7 +22,7 @@ public class Conexion {
     private final String base = "db_instalaser";
     private final String user = "root";
     private final String password = "$DV2019MSQL#";
-    private final String url = "jdbc:mysql://127.0.0.1:3360/" + base;
+    private final String url = "jdbc:mysql://localhost:3360/" + base;
     private Connection con = null;
     
     public Connection getConexion()
