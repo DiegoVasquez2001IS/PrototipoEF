@@ -19,9 +19,9 @@ import java.sql.*;
 
 
 public class Conexion {
-    private final String base = "db_instalaser";
+    private final String base = "examen";
     private final String user = "root";
-    private final String password = "$DV2019MSQL#";
+    private final String password = "";
     private final String url = "jdbc:mysql://localhost:3360/" + base;
     private Connection con = null;
     
