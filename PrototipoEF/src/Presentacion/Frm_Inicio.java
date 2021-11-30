@@ -48,7 +48,7 @@ public class Frm_Inicio extends javax.swing.JFrame {
         JLblNomApp = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Instalaser");
+        setTitle("Inventarios");
         setResizable(false);
 
         JIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/user128p.png"))); // NOI18N
@@ -66,7 +66,7 @@ public class Frm_Inicio extends javax.swing.JFrame {
         JBtnAcceso.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JBtnAcceso.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Next_24x24.png"))); // NOI18N
         JBtnAcceso.setText("Acceder");
-        JBtnAcceso.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JBtnAcceso.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JBtnAcceso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JBtnAccesoActionPerformed(evt);
@@ -76,7 +76,7 @@ public class Frm_Inicio extends javax.swing.JFrame {
         JBtnSalir.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JBtnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Delete_24x24.png"))); // NOI18N
         JBtnSalir.setText("Salir");
-        JBtnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JBtnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JBtnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JBtnSalirActionPerformed(evt);
@@ -84,7 +84,6 @@ public class Frm_Inicio extends javax.swing.JFrame {
         });
 
         JTxtPassword.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
-        JTxtPassword.setEchoChar('\u2022');
 
         JLbl1.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JLbl1.setText("Ingrese sus credenciales");
@@ -138,7 +137,7 @@ public class Frm_Inicio extends javax.swing.JFrame {
         );
 
         JLblNomApp.setFont(new java.awt.Font("Corbel", 1, 24)); // NOI18N
-        JLblNomApp.setText("Instalaser");
+        JLblNomApp.setText("Inventarios");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -151,11 +150,10 @@ public class Frm_Inicio extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(107, 107, 107)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(JIcono)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(JLblNomApp)
-                        .addGap(10, 10, 10)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(JLblNomApp))
+                    .addComponent(JIcono))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(

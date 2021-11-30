@@ -72,14 +72,14 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Instalaser");
+        setTitle("Inventarios");
         setResizable(false);
 
         javax.swing.GroupLayout JDeskPaneSysLayout = new javax.swing.GroupLayout(JDeskPaneSys);
         JDeskPaneSys.setLayout(JDeskPaneSysLayout);
         JDeskPaneSysLayout.setHorizontalGroup(
             JDeskPaneSysLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1000, Short.MAX_VALUE)
+            .addGap(0, 965, Short.MAX_VALUE)
         );
         JDeskPaneSysLayout.setVerticalGroup(
             JDeskPaneSysLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -93,7 +93,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemSalir.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Log Out_16x16.png"))); // NOI18N
         JItemSalir.setText("Salir del Sistema");
-        JItemSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemSalirActionPerformed(evt);
@@ -105,13 +105,13 @@ public class Frm_Contenedor extends javax.swing.JFrame {
 
         JMenuOp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/process16p.png"))); // NOI18N
         JMenuOp.setText("Operaciones de Inventario");
-        JMenuOp.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JMenuOp.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JMenuOp.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
 
         JItemEntradas.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemEntradas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/shopping_cart_up.png"))); // NOI18N
         JItemEntradas.setText("Entradas");
-        JItemEntradas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemEntradas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemEntradas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemEntradasActionPerformed(evt);
@@ -122,7 +122,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemSalidas.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemSalidas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/shopping_cart_down.png"))); // NOI18N
         JItemSalidas.setText("Salidas");
-        JItemSalidas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemSalidas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemSalidas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemSalidasActionPerformed(evt);
@@ -133,7 +133,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemTraslados.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemTraslados.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Redo_16x16.png"))); // NOI18N
         JItemTraslados.setText("Traslados");
-        JItemTraslados.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemTraslados.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemTraslados.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemTrasladosActionPerformed(evt);
@@ -150,7 +150,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemCat.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemCat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Green tag.png"))); // NOI18N
         JItemCat.setText("Categorías");
-        JItemCat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemCat.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemCat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemCatActionPerformed(evt);
@@ -161,7 +161,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemMarc.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemMarc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Script.png"))); // NOI18N
         JItemMarc.setText("Marcas");
-        JItemMarc.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemMarc.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemMarc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemMarcActionPerformed(evt);
@@ -172,7 +172,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemAlm.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemAlm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Company.png"))); // NOI18N
         JItemAlm.setText("Almacenes");
-        JItemAlm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemAlm.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemAlm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemAlmActionPerformed(evt);
@@ -183,7 +183,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemProd.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemProd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Database.png"))); // NOI18N
         JItemProd.setText("Productos");
-        JItemProd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemProd.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemProd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemProdActionPerformed(evt);
@@ -194,7 +194,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         JItemUsu.setFont(new java.awt.Font("Corbel", 0, 12)); // NOI18N
         JItemUsu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/User_16x16.png"))); // NOI18N
         JItemUsu.setText("Usuarios");
-        JItemUsu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        JItemUsu.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         JItemUsu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JItemUsuActionPerformed(evt);
@@ -337,11 +337,11 @@ public class Frm_Contenedor extends javax.swing.JFrame {
     }//GEN-LAST:event_JItemProdActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        JOptionPane.showMessageDialog(null, "Versión RC [Release Candidate]. Es una versión previa al lanzamiento oficial", "Acerca de", JOptionPane.INFORMATION_MESSAGE);
+        
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        JOptionPane.showMessageDialog(null, "Para soporte con la aplicación o base de datos contactarse con el desarrollador: Diego Vásquez (+502 58155771, diegovasqezis2018@gmail.com)", "Soporte", JOptionPane.INFORMATION_MESSAGE);
+
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void ItemStPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItemStPActionPerformed
