@@ -72,7 +72,7 @@ public class Frm_Contenedor extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Inventarios");
+        setTitle("DIEGO VÁSQUEZ - 9959-19-19543");
         setResizable(false);
 
         javax.swing.GroupLayout JDeskPaneSysLayout = new javax.swing.GroupLayout(JDeskPaneSys);
