@@ -35,6 +35,7 @@ CREATE TABLE `marca` (
 
 CREATE TABLE `producto` (
   `codigo_producto` varchar(100) NOT NULL,
+  `nombre_producto` varchar(100),
   `fk_categoria` int(11) NOT NULL,
   `fk_marca` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
